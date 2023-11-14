@@ -1,0 +1,73 @@
+body {
+    background-color:rgb(198, 164, 230)
+}
+
+nav {
+   padding: 20px;
+   background-color: antiquewhite;
+   border-radius: 20px;
+}
+
+
+
+a {
+    margin: 0%;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: rgb(175, 140, 207);
+}
+.active{
+    background-color: blueviolet;
+}
+button {
+   background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10 px;
+    float: right;
+}
+
+.upload {
+    color: rgb(146, 69, 224);
+    paddingrgb(224, 69, 219)
+    display: inline-table;
+    height: 200px;
+    width: 100px;
+    font-weight: 500;
+    font-family: monospace;
+    line-height: 7;
+   
+
+}
+
+.grid {
+    background-color: black;
+    height: 100px;
+    width: 150px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+
+}
+
+.coloumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.footer {
+    background-color: rgb(225, 226, 220);
+    color: blueviolet;
+    margin: 0%;
+    border-radius: 50px;
+    text-align: center;
+}

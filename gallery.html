@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
+    <script src="script.js"></script>
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+
+            <a href="My images" active>My Images</a>
+            <a href="Shared images">Shared Images</a>
+            <button>Logout</button>
+
+        </nav>
+    </div>
+
+    <div class="landingpage">
+        <h1> My Images</h1>
+        <p>Hey! add your personal images here</p>
+        <div class="upload">
+            <input type="file" id="image" accept="image/*" onchange="previewImage(event)">
+            <div class="previewImage">
+                <img id="preview" src="image" alt="previewImage">
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="download (1).jpg" alt="">
+            <img src="download.jpg" alt="">
+            <img src="download (2).jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+        <div class="column">
+            <img src="download (1).jpg" alt="">
+            <img src="download (2).jpg" alt="">
+            <img src="download.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+        <div class="column">
+            <img src="download (1).jpg" alt="">
+            <img src="download (2).jpg" alt="">
+            <img src="download.jpg" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+
+    </div>
+
+<footer class="footer">
+    <p>Made by Shubh urf Creat1ve</p>
+    <a href="github.com/Creat1ve-shubh" class="footer">My Github</a>
+</footer>
+</body>
+
+</html>
